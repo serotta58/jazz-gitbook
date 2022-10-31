@@ -6,7 +6,7 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: '',
+    logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
     logoLink: '',
     title: '',
       // "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
@@ -44,18 +44,20 @@ const config = {
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
     ],
-    links: '',
-    //  [{ text: 'Hasura', link: 'https://hasura.io' }],
+    links: [
+      { text: 'Jazz Standards', link: 'https://jazzstandards.com/' },
+      { text: 'Dave Pollack', link: 'https://www.davepollack.com/products/simple-steps-to-improvisation-success/categories/2151204637' },
+    ],
     frontLine: false,
     ignoreIndex: true,
-    title: '',
+    title: null,
       // "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
   },
   siteMetadata: {
     title: 'Gatsby Gitbook Boilerplate | Hasura',
     description: 'Documentation built with mdx. Powering hasura.io/learn ',
     ogImage: null,
-    docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
+    docsLocation: 'https://github.com/serotta58/jazz-gitbook/tree/master/content',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {
